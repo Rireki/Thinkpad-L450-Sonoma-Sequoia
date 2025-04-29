@@ -6,7 +6,7 @@
 - Use HeliPort to connect to Wi-Fi, because kext here is for Intel Wireless
 - Make sure to TURN OFF CSM (UEFI Only) when installing and after installing.
 # Credits
-- https://github.com/DomiDomian/Thinkpad-L450-Monterey for audio issues clue
+- https://github.com/DomiDomian/Thinkpad-L450-Monterey for audio issues clue and their ACPI handling
 - @dj-nest for his Thinkpad T450s OC for Sonoma https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-OpenCore/issues/133#issuecomment-2766144014
 # P.S.
 - I used Thinkpad T450s OC because they're practically the same thing except L450 requires less kexts and audio handling is different.
