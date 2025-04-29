@@ -7,6 +7,14 @@
 - Use HeliPort (https://github.com/OpenIntelWireless/HeliPort) to connect to Wi-Fi, because kext here is for Intel Wireless
 - IF SLEEP DOESN'T WORK then try removing every device that are connected to your USB ports. Usually those are the culprit.
 - Make sure to TURN OFF CSM (UEFI Only) when installing and after installing.
+# BIOS SETTINGS (IMPORTANT)
+- Config > Network > Wake On Lan (DISABLED)
+- Config > USB > Always On USB (Disabled)
+- Config > USB > USB 3.0 Mode (Auto)
+- Config > Display > Total Graphics Memory (512 MB)
+- Config > Power > Adaptive Thermal Management > Scheme for Battery (Balanced)
+## (OPTIONAL, if you have unlocked your BIOS which isn't covered in this guide):
+- Advanced > System Agent (SA) Configuration > Graphics Configuration > DVMT Pre Allocated (64mb)
 # Credits
 - https://github.com/DomiDomian/Thinkpad-L450-Monterey for audio issues clue and their ACPI handling
 - @dj-nest for his Thinkpad T450s OC for Sonoma https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-OpenCore/issues/133#issuecomment-2766144014
