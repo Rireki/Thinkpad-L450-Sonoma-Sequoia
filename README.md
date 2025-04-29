@@ -8,6 +8,9 @@
 - IF SLEEP DOESN'T WORK then try removing every device that are connected to your USB ports. Usually those are the culprit.
 - Make sure to TURN OFF CSM (UEFI Only) when installing and after installing.
 # BIOS SETTINGS (IMPORTANT)
+- Startup > UEFI/Legacy Boot (UEFI Only) > CSM Support (OFF)
+- Security > Secure Boot > Secure Boot (Disabled)
+- Security > I/O Port Access > Memory Card Slot (Disabled)
 - Config > Network > Wake On Lan (DISABLED)
 - Config > USB > Always On USB (Disabled)
 - Config > USB > USB 3.0 Mode (Auto)
